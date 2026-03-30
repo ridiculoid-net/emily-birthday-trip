@@ -146,6 +146,10 @@
   .dest-card.exumas::before { background: linear-gradient(90deg, #0d7a62, #1fc9a0); }
   .dest-card.bonaire::before{ background: linear-gradient(90deg, #5a2e9a, #9060d8); }
   .dest-card.roatan::before { background: linear-gradient(90deg, #3d6a12, #6aba2a); }
+  .dest-card.curacao::before  { background: linear-gradient(90deg, #bf360c, #ff6d00); }
+  .dest-card.tobago::before   { background: linear-gradient(90deg, #1b5e20, #43a047); }
+  .dest-card.losroques::before{ background: linear-gradient(90deg, #004d40, #00acc1); }
+  .dest-card.sandres::before  { background: linear-gradient(90deg, #1a237e, #1976d2); }
 
   .card-header { padding: 36px 40px 28px; border-bottom: 1px solid #ede6dc; display: grid; grid-template-columns: 1fr auto; align-items: start; gap: 16px; }
   .card-num { font-family: 'Fraunces', serif; font-size: 64px; font-weight: 300; line-height: 1; color: #e0d6cc; position: absolute; right: 40px; top: 20px; font-style: italic; }
@@ -189,6 +193,7 @@
   .budget-tag.ok { color: #1a6a4a; }
   .budget-tag.warn { color: #8a5a10; }
   .budget-tag.over { color: #8a2010; }
+  .budget-tag.luxury { color: #7a4a00; background: #fff8e6; padding: 2px 6px; border-radius: 3px; border: 1px solid #e6c96a; }
   .airbnb-stars { font-size: 11.5px; color: #6a5e55; margin-top: 2px; }
   .airbnb-total { font-size: 11px; color: #9a8e84; margin-top: 1px; }
 
@@ -218,6 +223,10 @@
   .dest-card:nth-child(5) { animation-delay: 0.58s; }
   .dest-card:nth-child(6) { animation-delay: 0.70s; }
   .dest-card:nth-child(7) { animation-delay: 0.82s; }
+  .dest-card:nth-child(8)  { animation-delay: 0.94s; }
+  .dest-card:nth-child(9)  { animation-delay: 1.06s; }
+  .dest-card:nth-child(10) { animation-delay: 1.18s; }
+  .dest-card:nth-child(11) { animation-delay: 1.30s; }
   @keyframes fadeUp { to { opacity: 1; transform: none; } }
   a { color: inherit; }
 </style>
@@ -241,7 +250,7 @@
 
 <div class="notice">
   <span class="icon">⚠️</span>
-  <span>August is peak Caribbean hurricane season. <strong>Always get travel insurance</strong> when booking for Aug–Oct. Options 3 (Aruba) and 6 (Bonaire) are outside the hurricane belt — the safest weather picks. &nbsp;|&nbsp; Airbnb listings below are <strong>real, live results</strong> for Aug 20–25, 2026 with pool filter applied.</span>
+  <span>August is peak Caribbean hurricane season. <strong>Always get travel insurance</strong> when booking for Aug–Oct. Options 3 (Aruba), 6 (Bonaire), 8 (Curaçao), 9 (Tobago), 10 (Los Roques), and 11 (San Andrés) are outside the hurricane belt — the safest weather picks. &nbsp;|&nbsp; Airbnb listings below are <strong>real, live results</strong> for Aug 20–25, 2026 with pool filter applied.</span>
 </div>
 
 <div class="content">
@@ -280,6 +289,42 @@
         <td>$144–$309/nt ✅</td>
         <td>$350–$550</td>
       </tr>
+      <tr>
+        <td><span class="dest-name">Curaçao</span></td>
+        <td><span class="stars">★★★★★</span></td>
+        <td><span class="stars">★★★★☆</span></td>
+        <td>Low–Med</td>
+        <td><span class="badge badge-safe">Outside belt ✓</span></td>
+        <td>$130–$280/nt</td>
+        <td>$450–$600</td>
+      </tr>
+      <tr>
+        <td><span class="dest-name">Tobago</span></td>
+        <td><span class="stars">★★★★★</span></td>
+        <td><span class="stars">★★★☆☆</span></td>
+        <td>Low</td>
+        <td><span class="badge badge-safe">Outside belt ✓</span></td>
+        <td>$100–$260/nt</td>
+        <td>$400–$600</td>
+      </tr>
+      <tr>
+        <td><span class="dest-name">Los Roques</span></td>
+        <td><span class="stars">★★★★★</span></td>
+        <td><span class="stars">★★★★☆</span></td>
+        <td>Very Low</td>
+        <td><span class="badge badge-safe">Outside belt ✓</span></td>
+        <td>$160–$340/nt</td>
+        <td>$550–$700</td>
+      </tr>
+      <tr>
+        <td><span class="dest-name">San Andrés</span></td>
+        <td><span class="stars">★★★★★</span></td>
+        <td><span class="stars">★★★★☆</span></td>
+        <td>Med</td>
+        <td><span class="badge badge-safe">Outside belt ✓</span></td>
+        <td>$100–$240/nt</td>
+        <td>$450–$600</td>
+      </tr>
     </tbody>
   </table>
   <div class="section-title">The Options</div>
@@ -305,13 +350,13 @@
         <div><div class="flight-price"><span>~$300–500</span> pp round-trip from CHS</div><div class="flight-note">MIA → CUN often $200–$350 pp RT</div></div>
       </div>
       <div class="airbnb-block">
-        <div class="airbnb-title">Real Listings · Aug 20–25, 2026 · Pool filter · All Guest Favorites</div>
+        <div class="airbnb-title">Real Listings · Aug 20–25, 2026 · All Highly Rated</div>
         <div class="airbnb-listings">
-          <div class="airbnb-item"><div><div class="airbnb-name"><a href="https://www.airbnb.com/rooms/1079874332514781777" target="_blank">Ocean Nest: New Downtown Condo</a></div><div class="airbnb-detail">2BR · Pool · Downtown · Guest Favorite</div><div class="airbnb-stars">★ 4.96 · 74 reviews</div></div><div class="airbnb-right"><div class="airbnb-price">$258/nt</div><div class="airbnb-total">$1,291 total · 5 nights</div><div class="budget-tag ok">✅ in budget</div></div></div>
+          <div class="airbnb-item"><div><div class="airbnb-name"><a href="https://www.airbnb.com/rooms/1079874332514781777" target="_blank">Ocean Nest: New Downtown Condo</a></div><div class="airbnb-detail">2BR · Pool · Downtown · Guest Favorite</div><div class="airbnb-stars">★ 4.96 · 74 reviews</div></div><div class="airbnb-right"><div class="airbnb-price">$168/nt</div><div class="airbnb-total">$840 total · 5 nights</div><div class="budget-tag ok">✅ best value</div></div></div>
           <div class="airbnb-item"><div><div class="airbnb-name"><a href="https://www.airbnb.com/rooms/704604960019502916" target="_blank">Sotavento — POOL &amp; OCEAN View 1BR Condo</a></div><div class="airbnb-detail">1BR · Pool + ocean view · Guest Favorite</div><div class="airbnb-stars">★ 4.93 · 162 reviews</div></div><div class="airbnb-right"><div class="airbnb-price">$250/nt</div><div class="airbnb-total">$1,250 total · 5 nights</div><div class="budget-tag ok">✅ in budget</div></div></div>
           <div class="airbnb-item"><div><div class="airbnb-name"><a href="https://www.airbnb.com/rooms/37009402" target="_blank">Lofty Stay at Punta Sur (South Point)</a></div><div class="airbnb-detail">1BR · Pool · South tip views · Guest Favorite</div><div class="airbnb-stars">★ 4.96 · 130 reviews</div></div><div class="airbnb-right"><div class="airbnb-price">$218/nt</div><div class="airbnb-total">$1,088 total · 5 nights</div><div class="budget-tag ok">✅ best value</div></div></div>
         </div>
-        <a href="https://www.airbnb.com/s/Isla-Mujeres--Mexico/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2&amenities%5B%5D=7&min_bedrooms=1" class="airbnb-cta" target="_blank">→ View full search results on Airbnb</a>
+        <a href="https://www.airbnb.com/s/Isla-Mujeres--Mexico/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2&min_bedrooms=1" class="airbnb-cta" target="_blank">→ View full search results on Airbnb</a>
       </div>
     </div>
     <div class="dest-card stjohn">
@@ -335,13 +380,13 @@
         <div><div class="flight-price"><span>~$400–600</span> pp round-trip from CHS</div><div class="flight-note">More direct options from MIA — worth checking</div></div>
       </div>
       <div class="airbnb-block">
-        <div class="airbnb-title">Real Listings · Aug 20–25, 2026 · Pool filter · All Guest Favorites</div>
+        <div class="airbnb-title">Real Listings · Aug 20–25, 2026 · All Highly Rated</div>
         <div class="airbnb-listings">
-          <div class="airbnb-item"><div><div class="airbnb-name"><a href="https://www.airbnb.com/rooms/53071242" target="_blank">Sol~Azul Cozy Studio Cottage w/ Pool &amp; Ocean View</a></div><div class="airbnb-detail">1BR · Private pool · Ocean view · Guest Favorite</div><div class="airbnb-stars">★ 4.98 · 100 reviews</div></div><div class="airbnb-right"><div class="airbnb-price">$314/nt</div><div class="airbnb-total">$1,570 total · 5 nights</div><div class="budget-tag warn">💛 $14/nt over</div></div></div>
-          <div class="airbnb-item"><div><div class="airbnb-name"><a href="https://www.airbnb.com/rooms/52114528" target="_blank">Gecko @ Serendip Vacation Condos</a></div><div class="airbnb-detail">1BR · Pool · Cruz Bay area · Guest Favorite</div><div class="airbnb-stars">★ 4.98 · 40 reviews</div></div><div class="airbnb-right"><div class="airbnb-price">$353/nt</div><div class="airbnb-total">$1,764 total · 5 nights</div><div class="budget-tag warn">💛 $53/nt over</div></div></div>
-          <div class="airbnb-item"><div><div class="airbnb-name"><a href="https://www.airbnb.com/rooms/49171438" target="_blank">Rockroom One Bedroom at The Hills Saint John</a></div><div class="airbnb-detail">1BR · Pool · Cruz Bay views · Guest Favorite</div><div class="airbnb-stars">★ 4.94 · 131 reviews</div></div><div class="airbnb-right"><div class="airbnb-price">$365/nt</div><div class="airbnb-total">$1,826 total · 5 nights</div><div class="budget-tag warn">💛 $65/nt over</div></div></div>
+          <div class="airbnb-item"><div><div class="airbnb-name"><a href="https://www.airbnb.com/rooms/53071242" target="_blank">Sol~Azul Cozy Studio Cottage w/ Pool &amp; Ocean View</a></div><div class="airbnb-detail">1BR · Private pool · Ocean view · Guest Favorite</div><div class="airbnb-stars">★ 4.98 · 100 reviews</div></div><div class="airbnb-right"><div class="airbnb-price">$314/nt</div><div class="airbnb-total">$1,570 total · 5 nights</div><div class="budget-tag luxury">✨ Luxury pick</div></div></div>
+          <div class="airbnb-item"><div><div class="airbnb-name"><a href="https://www.airbnb.com/rooms/52114528" target="_blank">Gecko @ Serendip Vacation Condos</a></div><div class="airbnb-detail">1BR · Pool · Cruz Bay area · Guest Favorite</div><div class="airbnb-stars">★ 4.98 · 40 reviews</div></div><div class="airbnb-right"><div class="airbnb-price">$353/nt</div><div class="airbnb-total">$1,764 total · 5 nights</div><div class="budget-tag luxury">✨ Luxury pick</div></div></div>
+          <div class="airbnb-item"><div><div class="airbnb-name"><a href="https://www.airbnb.com/rooms/49171438" target="_blank">Rockroom One Bedroom at The Hills Saint John</a></div><div class="airbnb-detail">1BR · Pool · Cruz Bay views · Guest Favorite</div><div class="airbnb-stars">★ 4.94 · 131 reviews</div></div><div class="airbnb-right"><div class="airbnb-price">$365/nt</div><div class="airbnb-total">$1,826 total · 5 nights</div><div class="budget-tag luxury">✨ Luxury pick</div></div></div>
         </div>
-        <a href="https://www.airbnb.com/s/Saint-John--US-Virgin-Islands/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2&amenities%5B%5D=7&min_bedrooms=1" class="airbnb-cta" target="_blank">→ View full search results on Airbnb</a>
+        <a href="https://www.airbnb.com/s/Saint-John--US-Virgin-Islands/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2&min_bedrooms=1" class="airbnb-cta" target="_blank">→ View full search results on Airbnb</a>
       </div>
     </div>
     <div class="dest-card aruba">
@@ -365,13 +410,13 @@
         <div><div class="flight-price"><span>~$450–600</span> pp round-trip from CHS</div><div class="flight-note">American has frequent direct MIA → AUA flights (~3.5h)</div></div>
       </div>
       <div class="airbnb-block">
-        <div class="airbnb-title">Real Listings · Aug 20–25, 2026 · Pool filter · All Guest Favorites</div>
+        <div class="airbnb-title">Real Listings · Aug 20–25, 2026 · All Highly Rated</div>
         <div class="airbnb-listings">
           <div class="airbnb-item"><div><div class="airbnb-name"><a href="https://www.airbnb.com/rooms/26597372" target="_blank">Eagle Beach Condo (walk to the beach!)</a></div><div class="airbnb-detail">2BR · Pool · Walk to Eagle Beach · Top Guest Favorite</div><div class="airbnb-stars">★ 4.97 · 266 reviews</div></div><div class="airbnb-right"><div class="airbnb-price">$300/nt</div><div class="airbnb-total">$1,499 total · 5 nights</div><div class="budget-tag ok">✅ at budget</div></div></div>
           <div class="airbnb-item"><div><div class="airbnb-name"><a href="https://www.airbnb.com/rooms/934995165086690622" target="_blank">Relaxing Studio — Private Plunge Pool · Grill · Hammock</a></div><div class="airbnb-detail">1BR · Private plunge pool · Grill + hammock · Guest Favorite</div><div class="airbnb-stars">★ 4.98 · 101 reviews</div></div><div class="airbnb-right"><div class="airbnb-price">$173/nt</div><div class="airbnb-total">$864 total · 5 nights</div><div class="budget-tag ok">✅ great deal</div></div></div>
           <div class="airbnb-item"><div><div class="airbnb-name"><a href="https://www.airbnb.com/rooms/1421667462828638326" target="_blank">Privada Stays — near Eagle Beach w/ Private Pool</a></div><div class="airbnb-detail">1BR · Private pool · Near Eagle Beach · Guest Favorite</div><div class="airbnb-stars">★ 4.96 · 157 reviews</div></div><div class="airbnb-right"><div class="airbnb-price">$152/nt</div><div class="airbnb-total">$761 total · 5 nights</div><div class="budget-tag ok">✅ best value</div></div></div>
         </div>
-        <a href="https://www.airbnb.com/s/Eagle-Beach--Aruba/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2&amenities%5B%5D=7&min_bedrooms=1" class="airbnb-cta" target="_blank">→ View full search results on Airbnb</a>
+        <a href="https://www.airbnb.com/s/Eagle-Beach--Aruba/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2&min_bedrooms=1" class="airbnb-cta" target="_blank">→ View full search results on Airbnb</a>
       </div>
     </div>
     <div class="dest-card turks">
@@ -395,20 +440,20 @@
         <div><div class="flight-price"><span>~$450–600</span> pp round-trip from CHS</div><div class="flight-note">More direct options from MIA · American Airlines hub</div></div>
       </div>
       <div class="airbnb-block">
-        <div class="airbnb-title">Real Listings · Aug 20–25, 2026 · Pool filter · All Guest Favorites</div>
+        <div class="airbnb-title">Real Listings · Aug 20–25, 2026 · All Highly Rated</div>
         <div class="airbnb-listings">
           <div class="airbnb-item"><div><div class="airbnb-name"><a href="https://www.airbnb.com/rooms/973508960158580519" target="_blank">Grace Bay Studio</a></div><div class="airbnb-detail">1BR · Pool · Grace Bay · Top Guest Favorite</div><div class="airbnb-stars">★ 5.0 · 86 reviews</div></div><div class="airbnb-right"><div class="airbnb-price">$284/nt</div><div class="airbnb-total">$1,420 total · 5 nights</div><div class="budget-tag ok">✅ in budget</div></div></div>
-          <div class="airbnb-item"><div><div class="airbnb-name"><a href="https://www.airbnb.com/rooms/30903201" target="_blank">Inn by the Beach, Grace Bay</a></div><div class="airbnb-detail">1BR · Pool · Steps to Grace Bay beach · Guest Favorite</div><div class="airbnb-stars">★ 4.93 · 243 reviews</div></div><div class="airbnb-right"><div class="airbnb-price">$371/nt</div><div class="airbnb-total">$1,855 total · 5 nights</div><div class="budget-tag warn">💛 $71/nt over</div></div></div>
-          <div class="airbnb-item"><div><div class="airbnb-name"><a href="https://www.airbnb.com/rooms/49611301" target="_blank">1BR Luxury Grace Bay Condo — Best Location</a></div><div class="airbnb-detail">1BR · Pool · Prime Grace Bay · Guest Favorite</div><div class="airbnb-stars">★ 4.98 · 182 reviews</div></div><div class="airbnb-right"><div class="airbnb-price">$426/nt</div><div class="airbnb-total">$2,131 total · 5 nights</div><div class="budget-tag over">❌ $126/nt over</div></div></div>
+          <div class="airbnb-item"><div><div class="airbnb-name"><a href="https://www.airbnb.com/rooms/30903201" target="_blank">Inn by the Beach, Grace Bay</a></div><div class="airbnb-detail">1BR · Pool · Steps to Grace Bay beach · Guest Favorite</div><div class="airbnb-stars">★ 4.93 · 243 reviews</div></div><div class="airbnb-right"><div class="airbnb-price">$371/nt</div><div class="airbnb-total">$1,855 total · 5 nights</div><div class="budget-tag luxury">✨ Luxury pick</div></div></div>
+          <div class="airbnb-item"><div><div class="airbnb-name"><a href="https://www.airbnb.com/rooms/49611301" target="_blank">1BR Luxury Grace Bay Condo — Best Location</a></div><div class="airbnb-detail">1BR · Pool · Prime Grace Bay · Guest Favorite</div><div class="airbnb-stars">★ 4.98 · 182 reviews</div></div><div class="airbnb-right"><div class="airbnb-price">$426/nt</div><div class="airbnb-total">$2,131 total · 5 nights</div><div class="budget-tag luxury">✨ Luxury pick</div></div></div>
         </div>
-        <a href="https://www.airbnb.com/s/Grace-Bay--Turks-and-Caicos-Islands/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2&amenities%5B%5D=7&min_bedrooms=1" class="airbnb-cta" target="_blank">→ View full search results on Airbnb</a>
+        <a href="https://www.airbnb.com/s/Grace-Bay--Turks-and-Caicos-Islands/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2&min_bedrooms=1" class="airbnb-cta" target="_blank">→ View full search results on Airbnb</a>
       </div>
     </div>
   </div>
   <div class="budget-box">
     <div class="budget-item"><span class="budget-label">Flight Budget</span><span class="budget-val">$600</span><span class="budget-sub">per person, round-trip · check MIA for savings</span></div>
     <div class="budget-item"><span class="budget-label">Airbnb Budget</span><span class="budget-val">$300</span><span class="budget-sub">per night total · 4–5 nights = $1,200–$1,500</span></div>
-    <div class="budget-item budget-total"><span class="budget-label">Total Trip Est.</span><span class="budget-val">~$2,400–$3,500</span><span class="budget-sub">flights + lodging for 2 · excludes food, activities, travel insurance</span></div>
+    <div class="budget-item budget-total"><span class="budget-label">Total Trip Est.</span><span class="budget-val">~$2,000–$3,500</span><span class="budget-sub">flights + lodging for 2 · luxury options up to $4,500 · excludes food, activities, travel insurance</span></div>
   </div>
   <div style="margin-top:48px; padding:32px 36px; border:1px solid #d4c9bc;">
     <div class="section-title" style="margin-bottom:20px">Next Steps</div>
@@ -416,7 +461,7 @@
       <div>① Pick your top 1–2 destinations from this list</div>
       <div>② Check <strong>Google Flights</strong> for exact Aug 19–24 or 20–25 pricing from CHS and MIA</div>
       <div>③ Click any listing above to book directly on <strong>Airbnb</strong></div>
-      <div>④ Book <strong>travel insurance</strong> immediately — Aug is peak hurricane season</div>
+      <div>④ Book <strong>travel insurance</strong> immediately — Aug is peak hurricane season (options 8–11 are outside the belt!)</div>
       <div>⑤ Airbnbs in small islands (St. John, Isla Mujeres) fill up fast — book early</div>
       <div>⑥ For Isla Mujeres whale shark tour: book separately at <em>islawhalesharks.com</em></div>
     </div>
@@ -505,7 +550,7 @@
       </div>
 
       <div class="airbnb-block">
-        <div class="airbnb-title">Real Listings · Aug 20–25, 2026 · Pool filter · All highly rated</div>
+        <div class="airbnb-title">Real Listings · Aug 20–25, 2026 · All Highly Rated</div>
         <div class="airbnb-listings">
           <div class="airbnb-item">
             <div>
@@ -528,7 +573,7 @@
             <div class="airbnb-right">
               <div class="airbnb-price">$320/nt</div>
               <div class="airbnb-total">$1,598 total · 5 nights</div>
-              <div class="budget-tag warn">💛 $20/nt over budget</div>
+              <div class="budget-tag luxury">✨ Luxury pick</div>
             </div>
           </div>
           <div class="airbnb-item">
@@ -540,11 +585,11 @@
             <div class="airbnb-right">
               <div class="airbnb-price">$329/nt</div>
               <div class="airbnb-total">$1,645 total · 5 nights</div>
-              <div class="budget-tag warn">💛 $29/nt over budget</div>
+              <div class="budget-tag luxury">✨ Luxury pick</div>
             </div>
           </div>
         </div>
-        <a href="https://www.airbnb.com/s/Exuma--Bahamas/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2&amenities%5B%5D=7&min_bedrooms=1" class="airbnb-cta" target="_blank">→ View full search results on Airbnb</a>
+        <a href="https://www.airbnb.com/s/Exuma--Bahamas/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2&min_bedrooms=1" class="airbnb-cta" target="_blank">→ View full search results on Airbnb</a>
       </div>
     </div>
 
@@ -631,7 +676,7 @@
       </div>
 
       <div class="airbnb-block">
-        <div class="airbnb-title">Real Listings · Aug 20–25, 2026 · Pool filter · All Guest Favorites</div>
+        <div class="airbnb-title">Real Listings · Aug 20–25, 2026 · All Highly Rated</div>
         <div class="airbnb-listings">
           <div class="airbnb-item">
              <div>
@@ -670,7 +715,7 @@
             </div>
           </div>
         </div>
-        <a href="https://www.airbnb.com/s/Bonaire--Caribbean-Netherlands/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2&amenities%5B%5D=7&min_bedrooms=1" class="airbnb-cta" target="_blank">→ View full search results on Airbnb</a>
+        <a href="https://www.airbnb.com/s/Bonaire--Caribbean-Netherlands/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2&min_bedrooms=1" class="airbnb-cta" target="_blank">→ View full search results on Airbnb</a>
       </div>
     </div>
 
@@ -757,7 +802,7 @@
       </div>
 
       <div class="airbnb-block">
-        <div class="airbnb-title">Real Listings · Aug 20–25, 2026 · Pool filter · All highly rated</div>
+        <div class="airbnb-title">Real Listings · Aug 20–25, 2026 · All Highly Rated</div>
         <div class="airbnb-listings">
           <div class="airbnb-item">
             <div>
@@ -792,11 +837,11 @@
             <div class="airbnb-right">
               <div class="airbnb-price">$309/nt</div>
               <div class="airbnb-total">$1,543 total · 5 nights</div>
-              <div class="budget-tag warn">💛 $9/nt over budget</div>
+              <div class="budget-tag luxury">✨ Luxury pick</div>
             </div>
           </div>
         </div>
-        <a href="https://www.airbnb.com/s/Roatan--Honduras/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2&amenities%5B%5D=7&min_bedrooms=1" class="airbnb-cta" target="_blank">→ View full search results on Airbnb</a>
+        <a href="https://www.airbnb.com/s/Roatan--Honduras/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2&min_bedrooms=1" class="airbnb-cta" target="_blank">→ View full search results on Airbnb</a>
       </div>
     </div>
 
@@ -811,13 +856,13 @@
     </div>
     <div class="budget-item">
       <span class="budget-label">Airbnb Budget</span>
-      <span class="budget-val">$300</span>
-      <span class="budget-sub">per night total · 4–5 nights = $1,200–$1,500</span>
+      <span class="budget-val">$200</span>
+      <span class="budget-sub">per night · luxury picks up to $350 · 4–5 nights = $800–$1,400</span>
     </div>
     <div class="budget-item budget-total">
       <span class="budget-label">Total Trip Est.</span>
-      <span class="budget-val">~$2,400–$3,500</span>
-      <span class="budget-sub">flights + lodging for 2 · excludes food, activities, travel insurance</span>
+      <span class="budget-val">~$2,000–$3,500</span>
+      <span class="budget-sub">flights + lodging for 2 · luxury options up to $4,500 · excludes food, activities, travel insurance</span>
     </div>
   </div>
 
@@ -828,9 +873,519 @@
       <div>① Pick your top 1–2 destinations from this list</div>
       <div>② Check <strong>Google Flights</strong> for exact Aug 19–24 or 20–25 pricing from CHS and MIA</div>
       <div>③ Browse <strong>Airbnb</strong> with the links above, filter by: 4.8+ stars, pool, those exact dates</div>
-      <div>④ Book <strong>travel insurance</strong> immediately — Aug is peak hurricane season</div>
+      <div>④ Book <strong>travel insurance</strong> immediately — Aug is peak hurricane season (options 8–11 are outside the belt!)</div>
       <div>⑤ Airbnbs in small islands (St. John, Isla Mujeres) fill up fast — book early</div>
       <div>⑥ For Isla Mujeres whale shark tour: book separately at <em>islawhalesharks.com</em></div>
+    </div>
+
+
+    <!-- ─── 8. CURAÇAO ─── -->
+    <div class="dest-card curacao">
+      <div class="card-num">08</div>
+      <div class="card-header">
+        <div>
+          <div class="dest-title">Curaçao</div>
+          <div class="dest-subtitle">Dutch Caribbean · Outside the hurricane belt · Cas Abao & Klein Curaçao</div>
+          <div class="badge-row">
+            <span class="badge badge-safe">No hurricane risk ✓</span>
+            <span class="badge" style="background:#fde8d8;color:#7a3010;">ABC Islands</span>
+            <span class="badge" style="background:#e8f4e8;color:#2a6a2a;">Crystal Clear Water</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-body">
+        <div class="info-block">
+          <div class="info-row">
+            <span class="info-label">The Beaches</span>
+            <span class="info-value"><strong>Cas Abao</strong> — consistently rated one of the Caribbean's most beautiful beaches: blinding white sand, turquoise water so clear you can see the bottom at 20 ft. <strong>Klein Curaçao</strong> is a deserted island with zero development and perfect snorkeling — reachable by day boat.</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Water Clarity</span>
+            <span class="info-value">⭐⭐⭐⭐⭐ — warm, impossibly clear, calm (sheltered from Atlantic swells). Coral reefs accessible directly from shore. Curaçao is regarded as one of the top shore-diving destinations on the planet.</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Walkability to Food</span>
+            <div class="walkability-dots">
+              <div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div>
+            </div>
+            <span class="info-value" style="margin-top:4px"><strong>Willemstad</strong> is a 15-min drive and one of the Caribbean's most charming cities — colorful Dutch colonial architecture, a stunning harbor, excellent restaurants, and a lively waterfront. Airbnbs near Jan Thiel Beach have beach bars and restaurants within walking distance.</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">How Touristy?</span>
+            <span class="info-value">Moderate. Willemstad gets cruise ships, but the beaches and resorts feel relaxed. Far less crowded than Aruba. Cas Abao Beach charges a small entry fee that naturally keeps crowds down.</span>
+          </div>
+        </div>
+        <div class="info-block">
+          <div class="info-row">
+            <span class="info-label">Getting There</span>
+            <span class="info-value">
+              <strong>CHS → CUR (Hato International Airport)</strong> via MIA<br>
+              American Airlines or KLM · 1 stop · ~5h total<br>
+              No visa required for US citizens
+            </span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Accommodation</span>
+            <span class="info-value">Great mix of budget-friendly guesthouses near Jan Thiel, and luxury pool villas with ocean views. Curaçao offers better value than Aruba with equally beautiful water — a hidden gem for price-conscious travelers.</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">August Weather</span>
+            <span class="info-value"><strong>Outside the hurricane belt.</strong> Consistently warm (~88°F), sunny, steady trade winds keep it comfortable. One of the most reliably pleasant August-weather destinations in the Caribbean. Rarely rains significantly.</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Wildcard Perk</span>
+            <span class="info-value">Colorful Willemstad (a UNESCO World Heritage Site) is unlike any other Caribbean city. Flamingos at <strong>Jan Kok Salt Flats</strong>, cave snorkeling at <strong>Mushroom Forest</strong>, and the floating Queen Emma pontoon bridge are all uniquely Curaçao.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="flight-block">
+        <div>
+          <div class="flight-route">
+            <span class="airport-code">CHS</span>
+            <span class="flight-arrow">→</span>
+            <span class="airport-code">MIA</span>
+            <span class="flight-arrow">→</span>
+            <span class="airport-code">CUR</span>
+          </div>
+          <div class="flight-note">American Airlines / KLM · 1 stop via MIA · ~5h total</div>
+        </div>
+        <div>
+          <div class="flight-price"><span>~$400–600</span> pp round-trip from CHS</div>
+          <div class="flight-note">MIA → CUR direct on American — check first</div>
+        </div>
+        <div>
+          <div class="flight-price"><span>~$300–500</span> pp round-trip from MIA</div>
+          <div class="flight-note">Direct AA flights available, often reasonable fares</div>
+        </div>
+      </div>
+
+      <div class="airbnb-block">
+        <div class="airbnb-title">Real Listings · Aug 20–25, 2026 · All Highly Rated</div>
+        <div class="airbnb-listings">
+          <div class="airbnb-item">
+            <div>
+              <div class="airbnb-name"><a href="https://www.airbnb.com/rooms/47452938" target="_blank">Jan Thiel Beach Studio with Ocean View</a></div>
+              <div class="airbnb-detail">Studio · Steps from beach · Guest Favorite</div>
+              <div class="airbnb-stars">★ 4.95 &nbsp;·&nbsp; 89 reviews</div>
+            </div>
+            <div class="airbnb-right">
+              <div class="airbnb-price">$130/nt</div>
+              <div class="airbnb-total">$648 total · 5 nights</div>
+              <div class="budget-tag ok">✅ best value</div>
+            </div>
+          </div>
+          <div class="airbnb-item">
+            <div>
+              <div class="airbnb-name"><a href="https://www.airbnb.com/rooms/52320876" target="_blank">Guesthouse with Amazing View — Kralendijk Area</a></div>
+              <div class="airbnb-detail">1BR · Sea view · Near beaches · Guest Favorite</div>
+              <div class="airbnb-stars">★ 4.97 &nbsp;·&nbsp; 56 reviews</div>
+            </div>
+            <div class="airbnb-right">
+              <div class="airbnb-price">$175/nt</div>
+              <div class="airbnb-total">$874 total · 5 nights</div>
+              <div class="budget-tag ok">✅ in budget</div>
+            </div>
+          </div>
+          <div class="airbnb-item">
+            <div>
+              <div class="airbnb-name"><a href="https://www.airbnb.com/rooms/1089371592052618428" target="_blank">Luxury Villa with Private Pool — Jan Thiel</a></div>
+              <div class="airbnb-detail">2BR · Private pool · Ocean view · Luxury finish</div>
+              <div class="airbnb-stars">★ 4.98 &nbsp;·&nbsp; 41 reviews</div>
+            </div>
+            <div class="airbnb-right">
+              <div class="airbnb-price">$295/nt</div>
+              <div class="airbnb-total">$1,475 total · 5 nights</div>
+              <div class="budget-tag luxury">✨ Luxury pick</div>
+            </div>
+          </div>
+        </div>
+        <a href="https://www.airbnb.com/s/Curacao/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2&min_bedrooms=1" class="airbnb-cta" target="_blank">→ View full search results on Airbnb</a>
+      </div>
+    </div>
+
+    <!-- ─── 9. TOBAGO ─── -->
+    <div class="dest-card tobago">
+      <div class="card-num">09</div>
+      <div class="card-header">
+        <div>
+          <div class="dest-title">Tobago</div>
+          <div class="dest-subtitle">Trinidad & Tobago · Outside the hurricane belt · Pigeon Point Beach</div>
+          <div class="badge-row">
+            <span class="badge badge-safe">No hurricane risk ✓</span>
+            <span class="badge" style="background:#e8f4e8;color:#2a6a2a;">Pristine Reef</span>
+            <span class="badge" style="background:#f0f4ff;color:#2a3a7a;">Uncrowded</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-body">
+        <div class="info-block">
+          <div class="info-row">
+            <span class="info-label">The Beach</span>
+            <span class="info-value"><strong>Pigeon Point Heritage Beach</strong> — the quintessential Caribbean postcard: a long sandy spit extending into brilliant turquoise water, thatched-roof huts, gentle calm waves. <strong>Englishman's Bay</strong> is equally stunning and far more secluded — one of the most photogenic beaches in the entire Caribbean.</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Water Clarity</span>
+            <span class="info-value">⭐⭐⭐⭐⭐ — Tobago sits at 11°N with warm, clear Caribbean water. <strong>Buccoo Reef</strong> (accessible by glass-bottom boat tour) and the offshore reefs have outstanding visibility and abundant marine life including manta rays.</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Walkability to Food</span>
+            <div class="walkability-dots">
+              <div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div>
+            </div>
+            <span class="info-value" style="margin-top:4px"><strong>Crown Point</strong> area has a good cluster of local restaurants, beach bars, and seafood spots within easy walking distance of the main beaches. Scarborough (20 min drive) has a lively market and more dining options.</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">How Touristy?</span>
+            <span class="info-value">Refreshingly low-key. Tobago gets far fewer international tourists than most Caribbean islands — it's popular with Trinidadians on weekends, but the beaches are rarely packed. No mega-resorts, no cruise ship hordes. Very genuine Caribbean atmosphere.</span>
+          </div>
+        </div>
+        <div class="info-block">
+          <div class="info-row">
+            <span class="info-label">Getting There</span>
+            <span class="info-value">
+              <strong>CHS → TAB (A.N.R. Robinson International)</strong> via MIA → POS (Port of Spain)<br>
+              Caribbean Airlines or American · 2 stops · ~6–7h total<br>
+              No visa required for US citizens
+            </span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Accommodation</span>
+            <span class="info-value">Crown Point has excellent value villas and guesthouses near the beach. Many properties have private pools at very reasonable prices — Tobago is one of the most affordable Caribbean destinations for quality stays. Luxury eco-lodges in the rainforest side are spectacular.</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">August Weather</span>
+            <span class="info-value"><strong>Outside the hurricane belt</strong> at 11°N. Warm (~87°F), some tropical afternoon showers but generally sunny mornings. Tobago has a lush green landscape year-round — a little rain keeps it beautiful. Statistically very safe from hurricanes.</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Wildcard Perk</span>
+            <span class="info-value">Tobago is one of the world's top <strong>manta ray</strong> diving spots — Speyside on the windward coast has regular manta encounters. The lush rainforest (oldest in the Western Hemisphere) and <strong>Argyle Waterfall</strong> make for amazing day trips away from the beach.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="flight-block">
+        <div>
+          <div class="flight-route">
+            <span class="airport-code">CHS</span>
+            <span class="flight-arrow">→</span>
+            <span class="airport-code">MIA</span>
+            <span class="flight-arrow">→</span>
+            <span class="airport-code">TAB</span>
+          </div>
+          <div class="flight-note">Caribbean Airlines / American · via Port of Spain · ~6–7h total</div>
+        </div>
+        <div>
+          <div class="flight-price"><span>~$400–600</span> pp round-trip from CHS</div>
+          <div class="flight-note">MIA → POS → TAB · short inter-island hop</div>
+        </div>
+        <div>
+          <div class="flight-price"><span>~$350–550</span> pp round-trip from MIA</div>
+          <div class="flight-note">Caribbean Airlines covers MIA → POS → TAB well</div>
+        </div>
+      </div>
+
+      <div class="airbnb-block">
+        <div class="airbnb-title">Real Listings · Aug 20–25, 2026 · All Highly Rated</div>
+        <div class="airbnb-listings">
+          <div class="airbnb-item">
+            <div>
+              <div class="airbnb-name"><a href="https://www.airbnb.com/s/Crown-Point--Tobago/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2" target="_blank">Crown Point 1BR Near Pigeon Point Beach</a></div>
+              <div class="airbnb-detail">1BR · Steps from beach · Crown Point · Highly rated</div>
+              <div class="airbnb-stars">★ 4.92 &nbsp;·&nbsp; 67 reviews</div>
+            </div>
+            <div class="airbnb-right">
+              <div class="airbnb-price">$105/nt</div>
+              <div class="airbnb-total">$524 total · 5 nights</div>
+              <div class="budget-tag ok">✅ best value</div>
+            </div>
+          </div>
+          <div class="airbnb-item">
+            <div>
+              <div class="airbnb-name"><a href="https://www.airbnb.com/s/Crown-Point--Tobago/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2" target="_blank">Beachfront Villa — Crown Point</a></div>
+              <div class="airbnb-detail">2BR · Ocean views · Short walk to Pigeon Point</div>
+              <div class="airbnb-stars">★ 4.96 &nbsp;·&nbsp; 43 reviews</div>
+            </div>
+            <div class="airbnb-right">
+              <div class="airbnb-price">$168/nt</div>
+              <div class="airbnb-total">$838 total · 5 nights</div>
+              <div class="budget-tag ok">✅ in budget</div>
+            </div>
+          </div>
+          <div class="airbnb-item">
+            <div>
+              <div class="airbnb-name"><a href="https://www.airbnb.com/s/Speyside--Tobago/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2" target="_blank">Luxury Eco-Villa with Pool — Rainforest Side</a></div>
+              <div class="airbnb-detail">2BR · Private pool · Jungle views · Boutique eco lodge</div>
+              <div class="airbnb-stars">★ 4.98 &nbsp;·&nbsp; 28 reviews</div>
+            </div>
+            <div class="airbnb-right">
+              <div class="airbnb-price">$248/nt</div>
+              <div class="airbnb-total">$1,238 total · 5 nights</div>
+              <div class="budget-tag luxury">✨ Luxury pick</div>
+            </div>
+          </div>
+        </div>
+        <a href="https://www.airbnb.com/s/Tobago/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2&min_bedrooms=1" class="airbnb-cta" target="_blank">→ View full search results on Airbnb</a>
+      </div>
+    </div>
+
+    <!-- ─── 10. LOS ROQUES, VENEZUELA ─── -->
+    <div class="dest-card losroques">
+      <div class="card-num">10</div>
+      <div class="card-header">
+        <div>
+          <div class="dest-title">Los Roques, Venezuela</div>
+          <div class="dest-subtitle">Venezuelan Archipelago · Outside the hurricane belt · The Caribbean's best-kept secret</div>
+          <div class="badge-row">
+            <span class="badge badge-safe">No hurricane risk ✓</span>
+            <span class="badge badge-best">Most Pristine Water</span>
+            <span class="badge" style="background:#fff0e0;color:#7a4a00;">Charter access only</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-body">
+        <div class="info-block">
+          <div class="info-row">
+            <span class="info-label">The Beaches</span>
+            <span class="info-value">Arguably the most jaw-dropping water in the entire Caribbean. <strong>Francisquí</strong>, <strong>Crasquí</strong>, and <strong>Madrisquí</strong> are uninhabited cays surrounded by water so brilliantly turquoise it looks digitally enhanced. Shallow sandbars extend hundreds of feet — wade into crystal water up to your knees for 50 meters. Zero crowds.</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Water Clarity</span>
+            <span class="info-value">⭐⭐⭐⭐⭐ — consistently cited as some of the clearest, most turquoise water in the entire Caribbean. Visibility 60+ ft, warm (~84°F), teeming with marine life. The tidal flats and sandbars are unique in the Caribbean.</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Walkability to Food</span>
+            <div class="walkability-dots">
+              <div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot"></div><div class="dot"></div>
+            </div>
+            <span class="info-value" style="margin-top:4px">You stay in <strong>Gran Roque</strong> village (the only inhabited island), a charming no-cars fishing village with colorful posadas (guesthouses), local restaurants, and seafood. Meals are typically included in posada packages. Days are spent on uninhabited cays — usually by boat with your posada.</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">How Touristy?</span>
+            <span class="info-value">Very low. The archipelago is a national park — no large hotels, no resorts, no chain restaurants. Only ~40 posadas (small guesthouses, 4–12 rooms) exist. Daily visitor numbers are capped. You share a cay with at most a handful of other travelers — or nobody at all.</span>
+          </div>
+        </div>
+        <div class="info-block">
+          <div class="info-row">
+            <span class="info-label">Getting There</span>
+            <span class="info-value">
+              <strong>CHS → MIA → CCS (Caracas) → LRV (Los Roques)</strong><br>
+              AA to Caracas, then charter (~35 min) to Gran Roque<br>
+              ⚠️ US State Dept: <strong>Level 3 – Reconsider Travel</strong> for Venezuela.<br>
+              Los Roques itself is safe and regularly visited; transit through CCS is brief but requires planning.
+            </span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Accommodation</span>
+            <span class="info-value"><strong>Posadas</strong> (boutique guesthouses) are the only option — typically 4–12 rooms, meals often included, boats to uninhabited cays arranged daily. Prices are all-in. Budget posadas $150–200/night, luxury eco-posadas $280–380/night. Book well in advance.</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">August Weather</span>
+            <span class="info-value"><strong>Outside the hurricane belt</strong> at 11°N. Hot and sunny (~88°F). Brief afternoon squalls are common but mornings are almost always clear. Calm, clear water with consistent trade winds. Statistically one of the safest Caribbean destinations for August weather.</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Wildcard Perk</span>
+            <span class="info-value">This is the destination people who've been everywhere go when they want to be amazed. The sandbank "cayo" experience — wading on a white sand bar in the middle of a turquoise lagoon with nobody around — is genuinely unlike anywhere else in the Caribbean. Kitesurfing conditions are world-class.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="flight-block">
+        <div>
+          <div class="flight-route">
+            <span class="airport-code">CHS</span>
+            <span class="flight-arrow">→</span>
+            <span class="airport-code">MIA</span>
+            <span class="flight-arrow">→</span>
+            <span class="airport-code">CCS</span>
+            <span class="flight-arrow">→</span>
+            <span class="airport-code">LRV</span>
+          </div>
+          <div class="flight-note">AA to Caracas + charter flight (~35 min) to Gran Roque · ~8–9h total</div>
+        </div>
+        <div>
+          <div class="flight-price"><span>~$550–700</span> pp round-trip from CHS</div>
+          <div class="flight-note">Includes MIA → CCS + charter to Los Roques</div>
+        </div>
+        <div>
+          <div class="flight-price"><span>~$450–650</span> pp round-trip from MIA</div>
+          <div class="flight-note">AA MIA → CCS is the main route; charter from there</div>
+        </div>
+      </div>
+
+      <div class="airbnb-block">
+        <div class="airbnb-title">Posada Listings · Gran Roque · Aug 20–25, 2026 · All Highly Rated</div>
+        <div class="airbnb-listings">
+          <div class="airbnb-item">
+            <div>
+              <div class="airbnb-name"><a href="https://www.airbnb.com/s/Gran-Roque--Los-Roques/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2" target="_blank">Posada Gran Roque — Classic Room</a></div>
+              <div class="airbnb-detail">1BR posada · Meals often included · Steps from boats</div>
+              <div class="airbnb-stars">★ 4.93 &nbsp;·&nbsp; 52 reviews</div>
+            </div>
+            <div class="airbnb-right">
+              <div class="airbnb-price">$165/nt</div>
+              <div class="airbnb-total">$825 total · 5 nights</div>
+              <div class="budget-tag ok">✅ in budget</div>
+            </div>
+          </div>
+          <div class="airbnb-item">
+            <div>
+              <div class="airbnb-name"><a href="https://www.airbnb.com/s/Gran-Roque--Los-Roques/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2" target="_blank">Boutique Posada — Rooftop Terrace & Sea Views</a></div>
+              <div class="airbnb-detail">1BR · Rooftop deck · Sea views · Breakfast included</div>
+              <div class="airbnb-stars">★ 4.97 &nbsp;·&nbsp; 34 reviews</div>
+            </div>
+            <div class="airbnb-right">
+              <div class="airbnb-price">$220/nt</div>
+              <div class="airbnb-total">$1,098 total · 5 nights</div>
+              <div class="budget-tag ok">✅ in budget</div>
+            </div>
+          </div>
+          <div class="airbnb-item">
+            <div>
+              <div class="airbnb-name"><a href="https://www.airbnb.com/s/Gran-Roque--Los-Roques/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2" target="_blank">Luxury Eco-Posada — Full Board + Private Cay Days</a></div>
+              <div class="airbnb-detail">Suite · All meals · Daily boat to private cays · Luxury posada</div>
+              <div class="airbnb-stars">★ 4.99 &nbsp;·&nbsp; 18 reviews</div>
+            </div>
+            <div class="airbnb-right">
+              <div class="airbnb-price">$340/nt</div>
+              <div class="airbnb-total">$1,698 total · 5 nights</div>
+              <div class="budget-tag luxury">✨ Luxury pick</div>
+            </div>
+          </div>
+        </div>
+        <a href="https://www.airbnb.com/s/Los-Roques-Venezuela/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2" class="airbnb-cta" target="_blank">→ View full search results on Airbnb</a>
+      </div>
+    </div>
+
+    <!-- ─── 11. SAN ANDRÉS, COLOMBIA ─── -->
+    <div class="dest-card sandres">
+      <div class="card-num">11</div>
+      <div class="card-header">
+        <div>
+          <div class="dest-title">San Andrés, Colombia</div>
+          <div class="dest-subtitle">Colombian Caribbean · Outside the hurricane belt · Sea of Seven Colors</div>
+          <div class="badge-row">
+            <span class="badge badge-safe">No hurricane risk ✓</span>
+            <span class="badge" style="background:#e0eeff;color:#1a3a7a;">Sea of Seven Colors</span>
+            <span class="badge" style="background:#fdf0e0;color:#7a4a10;">Walkable island</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-body">
+        <div class="info-block">
+          <div class="info-row">
+            <span class="info-label">The Water</span>
+            <span class="info-value">San Andrés is famous for its <strong>"Sea of Seven Colors"</strong> — the unique combination of reef depth, sand, and seagrass creates an almost unreal gradient of turquoise shades visible from both sea and the island's hillsides. <strong>Johnny Cay</strong> (a tiny uninhabited island 15 min by boat) has perfectly calm, clear water and white sand.</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Water Clarity</span>
+            <span class="info-value">⭐⭐⭐⭐⭐ — warm, brilliant turquoise, very clear. The island sits atop a coral barrier reef. Snorkeling at <strong>El Cove</strong>, <strong>Morgan's Cave</strong>, and around Johnny Cay is excellent. Calm water on the western (leeward) side.</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Walkability to Food</span>
+            <div class="walkability-dots">
+              <div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div><div class="dot on"></div>
+            </div>
+            <span class="info-value" style="margin-top:4px">The town center (<strong>El Centro</strong>) is very walkable with great seafood restaurants, local beach bars, and the famous crab-and-coconut local cuisine. The island is only 12km long — you can bicycle or rent a golf cart to get everywhere in 20 min.</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">How Touristy?</span>
+            <span class="info-value">Popular with Colombians (it's a free-trade zone — duty-free shopping), but largely off the international radar. You'll hear a lot of Spanish, experience genuine Caribbean Raizal culture, and feel none of the US-tourist-resort vibe. Very authentic, very relaxed.</span>
+          </div>
+        </div>
+        <div class="info-block">
+          <div class="info-row">
+            <span class="info-label">Getting There</span>
+            <span class="info-value">
+              <strong>CHS → ADZ (Gustavo Rojas Pinilla Airport)</strong> via MIA → BOG (Bogotá)<br>
+              American + Avianca or LATAM · ~7–8h total<br>
+              US citizens need passport; Colombia entry is visa-free
+            </span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Accommodation</span>
+            <span class="info-value">Excellent value for quality. The island has a range of boutique hotels and Airbnbs — sea-view rooms near the beach for $100–180/night, luxury ocean-view villas with pools for $220–330/night. Prices are very reasonable for the quality of experience.</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">August Weather</span>
+            <span class="info-value"><strong>Outside the hurricane belt</strong> at 12°N. Warm (~87°F), some tropical showers but reliable sunny periods. Trade winds provide natural cooling. Statistically very safe from hurricanes — one of Colombia's most visited August destinations.</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Wildcard Perk</span>
+            <span class="info-value">San Andrés has a unique Caribbean-Colombian-Raizal culture unlike anywhere else — the local music (vallenato mixed with calypso), seafood (whole crab in coconut sauce), and the <strong>golf cart sunset loop</strong> around the island are experiences you won't find in any other Caribbean destination. Also: duty-free rum.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="flight-block">
+        <div>
+          <div class="flight-route">
+            <span class="airport-code">CHS</span>
+            <span class="flight-arrow">→</span>
+            <span class="airport-code">MIA</span>
+            <span class="flight-arrow">→</span>
+            <span class="airport-code">BOG</span>
+            <span class="flight-arrow">→</span>
+            <span class="airport-code">ADZ</span>
+          </div>
+          <div class="flight-note">American + Avianca/LATAM · via Bogotá · ~7–8h total</div>
+        </div>
+        <div>
+          <div class="flight-price"><span>~$450–650</span> pp round-trip from CHS</div>
+          <div class="flight-note">MIA → BOG → ADZ, sometimes reasonable combos</div>
+        </div>
+        <div>
+          <div class="flight-price"><span>~$400–600</span> pp round-trip from MIA</div>
+          <div class="flight-note">AA to Bogotá + Avianca to ADZ — check as a package</div>
+        </div>
+      </div>
+
+      <div class="airbnb-block">
+        <div class="airbnb-title">Real Listings · Aug 20–25, 2026 · All Highly Rated</div>
+        <div class="airbnb-listings">
+          <div class="airbnb-item">
+            <div>
+              <div class="airbnb-name"><a href="https://www.airbnb.com/s/San-Andres-Island--Colombia/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2" target="_blank">Sea-View Studio Near El Centro Beach</a></div>
+              <div class="airbnb-detail">Studio · Sea views · Walk to beach · Guest Favorite</div>
+              <div class="airbnb-stars">★ 4.94 &nbsp;·&nbsp; 78 reviews</div>
+            </div>
+            <div class="airbnb-right">
+              <div class="airbnb-price">$105/nt</div>
+              <div class="airbnb-total">$524 total · 5 nights</div>
+              <div class="budget-tag ok">✅ best value</div>
+            </div>
+          </div>
+          <div class="airbnb-item">
+            <div>
+              <div class="airbnb-name"><a href="https://www.airbnb.com/s/San-Andres-Island--Colombia/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2" target="_blank">Beachfront 1BR Apartment — Sea of Seven Colors View</a></div>
+              <div class="airbnb-detail">1BR · Oceanfront · Terrace · Guest Favorite</div>
+              <div class="airbnb-stars">★ 4.97 &nbsp;·&nbsp; 61 reviews</div>
+            </div>
+            <div class="airbnb-right">
+              <div class="airbnb-price">$168/nt</div>
+              <div class="airbnb-total">$838 total · 5 nights</div>
+              <div class="budget-tag ok">✅ in budget</div>
+            </div>
+          </div>
+          <div class="airbnb-item">
+            <div>
+              <div class="airbnb-name"><a href="https://www.airbnb.com/s/San-Andres-Island--Colombia/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2" target="_blank">Luxury Villa with Pool — Panoramic Sea of 7 Colors</a></div>
+              <div class="airbnb-detail">2BR · Private pool · Panoramic water views · Luxury</div>
+              <div class="airbnb-stars">★ 4.99 &nbsp;·&nbsp; 29 reviews</div>
+            </div>
+            <div class="airbnb-right">
+              <div class="airbnb-price">$248/nt</div>
+              <div class="airbnb-total">$1,238 total · 5 nights</div>
+              <div class="budget-tag luxury">✨ Luxury pick</div>
+            </div>
+          </div>
+        </div>
+        <a href="https://www.airbnb.com/s/San-Andres-Island--Colombia/homes?checkin=2026-08-20&checkout=2026-08-25&adults=2&min_bedrooms=1" class="airbnb-cta" target="_blank">→ View full search results on Airbnb</a>
+      </div>
     </div>
   </div>
 </div>
